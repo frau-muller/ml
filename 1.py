@@ -23,3 +23,13 @@ nfans = np.array([1.2, 1.3, 0.5, 1.0])
 input = np.array([toes[0], wlrec[0],nfans[0]])
 pred = neural_network(input,weights)
 print(pred)
+
+a = np.array([0,1,2,3])
+b = np.array([4,5,6,7])
+c = np.random.rand(2,5)
+
+print(a)
+print(b)
+print(c)
+
+print(a*0.1)
