@@ -33,3 +33,9 @@ print(b)
 print(c)
 
 print(a*0.1)
+
+a1 =np.zeros((2,4))
+b1 = np.zeros((4,5))
+c1 = a1.dot(b1)
+print(c1)
+print(c1.shape)
